@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+autopep8 = "*"
+
+[packages]
+torch = {file = "https://download.pytorch.org/whl/cu102/torch-1.7.1-cp38-cp38-linux_x86_64.whl"}
+torchvision = "*"
+
+[requires]
+python_version = "3.8"

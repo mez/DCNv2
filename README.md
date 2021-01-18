@@ -2,8 +2,10 @@
 
 ### Build
 ```bash
+    pipenv install #(if you have not done so already)
+    pipenv shell
     ./make.sh         # build
-    python test.py    # run examples and gradient check 
+    python test/test.py    # run examples and gradient check 
 ```
 
 ### An Example
